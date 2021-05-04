@@ -1,0 +1,41 @@
+Email HTML Best Practices
+
+- Use inline CSS instead of <style> blocks
+
+- Use web-safe fonts only. Minimum 14px font-size.
+
+- Avoid center aligned text.
+
+- It is crucial to specify the font family, font size and color for each <td> cell in a table; otherwise, an email client may ignore your chosen font. You should also follow this rule for any block-level elements that contain text, such as <p>, <h1>…<h5>, <div>.
+
+- Include alt-text for all of your images
+
+- For color values, use #FFFFFF instead of #FFF
+
+- Use padding instead of margin
+
+- Use background-color instead of background
+
+- Use padding- top, padding-left... instead of padding
+
+- Limit images
+
+- HTML- attributes instead of CSS when possible.
+
+
+
+
+For accessibility:
+
+- use lang=”en” in the html tag
+
+- set a <title> tag
+
+- add <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+- don't use title="" on links. Use descriptive text in link text
+
+- add role=”Presentation” to <table> to tell the screen reader that this is a presentation table, not a data table. Avoid using all other aria-roles. 
+
+- Test criteria https://www.campaignmonitor.com/resources/guides/accessibility/
+
